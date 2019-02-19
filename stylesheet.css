@@ -4,6 +4,12 @@
 
 
 
+
+.navGrd {
+	background-image: linear-gradient(rgb(21, 21, 21), rgba(21, 21, 21, 2));
+}
+
+
 .nameText{
   text-align: center;
   position: absolute;
@@ -25,6 +31,7 @@
 /* Start Navbar */
 .navbar {
     overflow: hidden;
+	/*background-color: #333;*/
     float: right;
     margin-right: 40px;
   }
@@ -82,9 +89,52 @@
   }
 
 
+.videoBar {
+	height: auto;
+	margin: -10px;
+	background-color: #D6D6D6;
+    background-repeat: repeat;
+    background-size: cover;
+}
 
+.boxBTGvideo {
+	background:#151515;
+	margin-right: -20px;
+	margin-left: -20px;
+	width: auto;
+	height: 600px;
+	
+}
 
+.BTG_HIDE, .WEB_VIDEO1, .WEB_VIDEO2, .WEB_VIDEO3 {
+	padding: 20px;
+	margin: 0 auto;
+}
 
+.triangle {
+    width: 0;
+    height: 0;
+	margin-bottom: -15px;
+    border: solid 30px;
+    border-color: transparent transparent #151515 transparent;
+}
+
+#video1, #video2, #video3, #video4, #video5, #video6, #video7, #video8, #video9, #video10, #video11 {
+	margin-top: -40px;
+}
+
+.textPadding {
+	background: #151515;
+	margin-bottom: -40px;
+	padding: 40px;
+	color: white;
+	
+}
+.centerEmbed {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
