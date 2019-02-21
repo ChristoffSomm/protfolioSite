@@ -135,7 +135,43 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.greyOne { 
+	background: #313334;
+	height:  300px;
+	width: auto;
+	margin-right: -10px;
+	margin-left: -10px;
+}
 
+.greytwo {
+	background: #94928D;
+	height:  300px;
+	width: auto;
+	margin-right: -10px;
+	margin-left: -10px;
+}
 
+.greythree {
+	background: #5A5A5A;
+	height:  300px;
+	width: auto;
+	margin-right: -10px;
+	margin-left: -10px;
+}
 
+.greyfour {
+	background: #94928F;
+	height:  300px;
+	width: auto;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.greyfive {
+	background: #686460;
+	height:  300px;
+	width: auto;
+	margin-right: -10px;
+	margin-left: -10px;
+}
   
