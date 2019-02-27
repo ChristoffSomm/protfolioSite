@@ -60,3 +60,8 @@ function displayVideo11 () {
 	document.getElementById("video10").style.display = "none";
 	document.getElementById("video11").style.display = "block";
 }
+
+
+function paper() {
+	document.getElementById("word").style.display = "block";
+}

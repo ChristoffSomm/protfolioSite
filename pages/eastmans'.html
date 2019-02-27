@@ -7,48 +7,73 @@
 	<style>
 .parallax {
   background-image: url("../img/homePhoto.png");
-  min-height: 700px; 
-  margin: -10px;
+  min-height: 700px;
+  margin: 0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+		
+h1{ 
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  color: white;
+  font-size: 70px;
+  margin: auto; 
+  padding:20px
+}
+		
+div{
+    margin-top:50px;
+}
+.line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background: #4E4E4F;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 700, from(#fff), to(#4E4E4F));
+}
+		
+p{
+ font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  color: white;
+  font-size: 20px;
+  margin: auto; 
+  padding:10px	
+}
 	</style>
 </head>
 <div class="parallax">
-<div class="navGrd">
-<div class="navbar">
-    <a href="">Home</a>
-    
-    <div class="dropdown">
-    <button class="dropbtn">Portfolio</button>
-        <div class="dropdown-content">
-            <a href="eastmans'.html">Eastmans'</a>
-            <a href="#">Broadcasting</a>
-            <a href="interactiveArt.html">Interactive Art</a>
-        </div>
-    </div> 
-
-    <div class="dropdown">
-    <button class="dropbtn">About</button>
-        <div class="dropdown-content">
-            <a href="aboutMe.html">About Me</a>
-            <a href="skills.html">Skills</a>
-        </div>
-    </div> 
-
-    
-    <a href="">Résumé</a>
-    <a href="">Contact</a>
+<div style="margin-top: 0px" class="nav">
+      <ul>
+        <li class="home"><a href="../index.html">Home</a></li>
+        <li class="Portfolio"><a>Portfolio</a>
+          <ul>
+            <li><a href="eastmans'.html">Eastmans</a></li>
+            <li><a href="sportBoradcast.html">Graphics</a></li>
+            <li><a href="interactiveArt.html">Interactive Art</a></li>
+          </ul>
+        </li>
+		<li class="About"><a>About</a>
+          <ul>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+          </ul>
+        </li>
+        <li class="about"><a class="Résumé" href="pages/resume.html">Résumé</a></li>
+        <li class="contact"><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
 </div>
-</div></div>
 
 <div class="videoBar">
  <div class="BTG_HIDE">
-	<h1 style="font-size: 40px; margin: auto; padding:20px">Beyond The Gird</h1>
+	<h1>Beyond The Gird</h1>
 	
-	<img id="video-1" src="../img/eThumb/BTG_GuyHunt.jpg" alt="" width="420" height="auto" style="margin: auto; padding:20px" onClick="displayVideo1()">
+	<img id="video-1" src="../img/eThumb/BTG_GuyHunt.jpg" alt="" width="420" height="auto" style=" margin: auto; padding:20px" onClick="displayVideo1()">
 	
 	<img id="video-2" src="../img/eThumb/BTG_NorthernHerd.jpg" alt="" width="420" height="auto" style="margin: auto; padding:20px" onClick="displayVideo2()">
 	
@@ -77,8 +102,12 @@
 	</div>
 	</div>
  </div>	
-
-<h1 style="font-size: 40px">Web Videos</h1>
+	
+<div>
+    <span class="line"></span>
+</div>
+<br><br>
+<h1 style="margin-left: 25px">Web Videos</h1>
  <div class="WEB_VIDEO1">
 	<img id="video-4" src="../img/eThumb/rewarming.jpg" alt="" width="420" height="auto" style="margin: auto; padding:20px" onClick="displayVideo4()">
 	
@@ -137,7 +166,7 @@
 	</div>
 	</div>
 </div>
- <div class="WEB_VIDEO3">
+ <div class="WEB_VIDEO3" style="font-size: 40px; margin: auto; padding:20px">
 	 
 	<img id="video-10" src="../img/eThumb/tecNu.jpg" alt="" width="420" height="auto" style="margin: auto; padding:20px" onClick="displayVideo10()">
 	
@@ -158,11 +187,14 @@
 	</div>
  </div>		
 
-	<br><br><br><br><br>
+	<br><br>
 	
-	
+<div>
+    <span class="line"></span>
+</div>
+<br><br><br><br>
 	<div class="textPadding">
-	<h1 style="font-size: 40px">TV Episodes</h1>
+	<h1>TV Episodes</h1>
 	
 	<p>NOVEMBER 14, 2016 - A Mule Deer Surprise in Colorado</p>
 		<p> - Video Credit</p>

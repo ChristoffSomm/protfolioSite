@@ -6,44 +6,147 @@
 <link href="../stylesheet.css" rel="stylesheet" type="text/css">
 	<style>
 .parallax {
-background-image: url("../img/homePhoto.png");
+background-image: url("../img/NatureD_ScreenShot.jpg");
 min-height: 700px; 
+margin: 0px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+		
+* {
+  box-sizing: border-box;
+}
+		
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+		
+h1 {
+ text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  color: white;
+  font-size: 70px;
+  margin: auto; 
+  padding:20px
+}
+
+p {
+ font-size: 30px;
+ padding: 20px;
+ font-family: 'Roboto', sans-serif;
+ font-weight:500;
+}
+body {
+ background-color: #CBCBCE;
+}
+		
+button {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ font-family: 'Roboto', sans-serif;
+ font-weight:500;
+		}
+
 	</style>	
 
 </head>
 <body>
 <div class="parallax">	
-<div class="navbar">
-    <a href="">Home</a>
-    
-    <div class="dropdown">
-    <button class="dropbtn">Portfolio</button>
-        <div class="dropdown-content">
-            <a href="#">Eastmans'</a>
-            <a href="#">Broadcasting</a>
-            <a href="#">Interactive Art</a>
-        </div>
-    </div> 
-
-    <div class="dropdown">
-    <button class="dropbtn">About</button>
-        <div class="dropdown-content">
-            <a href="">About Me</a>
-            <a href="">Skills</a>
-        </div>
-    </div> 
-
-    
-    <a href="">Résumé</a>
-    <a href="">Contact</a>
+<div class="nav">
+      <ul>
+        <li class="home"><a href="../index.html">Home</a></li>
+        <li class="Portfolio"><a>Portfolio</a>
+          <ul>
+            <li><a href="eastmans'.html">Eastmans</a></li>
+            <li><a href="sportBoradcast.html">Graphics</a></li>
+            <li><a href="interactiveArt.html">Interactive Art</a></li>
+          </ul>
+        </li>
+		<li class="About"><a>About</a>
+          <ul>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+          </ul>
+        </li>
+        <li class="about"><a class="Résumé" href="pages/resume.html">Résumé</a></li>
+        <li class="contact"><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
 </div>
-</div>	
+
+<div class="natureD">
+	<h1 style="padding: 30px">Natural Distribution</h1>
+<iframe class="center" width="1280" height="720" src="https://www.youtube.com/embed/aNJ09O5xPbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br><br><br><br>
+	<button style="font-size: 20px;" onClick="paper()">Read More</button>
+	<br><br>
+</div>
+
+<div id="word" style="display: none">
+	<br><br><br><br>
+<h1 style="text-align: center">Natural Distribution</h1>
+<div id="alignInfo">
+<div class="titleInfo">
+<p style="padding: 0; margin: 0">Forrest Messerman</p>
+<p style="padding: 0; margin: 0">Senior</p>
+<p style="padding: 0; margin: 0">forrest.messerman@umconnect.umt.edu</p>
+</div>
+<div class="titleInfo">	
+<p style="padding: 0px; margin: 0">Christoffer Sommerfeld</p>
+<p style="padding: 0px; margin: 0">Senior</p>
+<p style="padding: 0px; margin: 0">Christofferlouis1@gmail.com</p>
+</div>
+<div class="titleInfo">	
+<p style="padding: 0; margin: 0">Ike Zahn</p>
+<p style="padding: 0; margin: 0">Senior</p>
+<p style="padding: 0; margin: 0">Isaac.Zahn@umconnect.umt.edu</p>
+</div>
+</div>
+<br><br><br><br>
+
+<div class="row" style="margin: -10px">
+	<div class="column" style="background-color:#aaa; height: 5000px ">
+<h1>ABSTRACT</h1>
+<p>We wanted to take our participants on a journey by transporting them to an alternate location, time or space, for them to have an experience in a world or setting that they weren't presently residing in. we accomplished this by first dampening the senses by cutting off the lights so that they would one, more susceptible and willing to submerse themselves in our world. We used a projector and screen as a visual aid that was stimulated by their movement and location within the piece to different locations. As the participant entered the space a camera would sense them and track their movement. The participant would start out in a big city environment which was followed by a suburban area, the visual would change once the participant traveled 1/3 of the distance across the given area that the camera could detect. that led to a visual of a place in nature, once the participant came into the last 1/3rd of the field of view. Each environment was bombarded with a kinetic chaos interacted with the participants movements that gradually dissipated with your journey with the descent of the added chaos present in each location (i.e. sporadic objects of light bouncing around) and as your journey progressed through this space there were lights on the ground attached to pressure plates symbolically representing stops along the way that would ultimately lead you to your destination (i.e. nature) 
+</p><br><br>
+
+<h1>Introduction</h1>
+<p>The focus of this installation piece is meant to invoke a sense of being in three different environments through sound, video, and light. The project is meant to show the relationship between technology and the natural world. By making the participant feel as though they are experiencing certain environments through technology the goal is to make them question their sense of reality. The motion of the participant changes the environment to give even more of a sense of movement through the piece.</p><br><br>
+<h1>Related Work</h1>
+<p>The artists known as SEEN, TAKEN, and a Paris-based studio called IF, along with a thousand other artists are all experimenting with motion tracking and projection technologies in interactive art installation pieces all over the world. We did not research any similar works before we started this project so it is an original idea even if examples of other pieces are predating our piece. Team-Lab is a Japanese based collaborative that was Established in 2001, teamLab consists of 450 staff members that collectively describe themselves as "ultra-technologists." The team consists of artists, architects, designers, animators, programmers and engineers [1].</p><br><br>
+<img style="max-width: 100%;" src="../img/figure1.jpg" alt="Figure1">
+<h1>Detailed Project Description</h1>
+<p>Our installation appeared as a giant sheet which had a projector behind it in order to make a projection that didn’t get interrupted by the participant. The room is dark so there is the least amount of interference for the participant as possible. The participant walks into the piece from the left side onto a pressure plate that completes a circuit in order to create mood lighting. In doing so a Kinect sees the participant and triggers the first of three videos that is outdoor scenery as well as natural sounds. As the participant walks through the piece they trigger a piece of video and sound meant to make them feel as though they are in a suburb area and then they walk into a city. The participant is only a few feet in front of the projection in order to give them the most immersive experience possible. The lights below their feet give off different colored light as they walk through the piece to change the scenery even more. The way the piece is designed is meant to make a person feel that they are in these environments to the greatest extent possible. All of the decisions we made were meant to enhance this experience.</p><br><br>
+</div>
 	
-	
+<div class="column" style="background-color:#bbb; height: 5000px">
+<h1>Artistic Development </h1>
+<p>This project started as an attempt to challenge our perception of the world through the use of technology. We had multiple concepts that involved motion tracking and pressure plates. The main goal of the piece stayed stable throughout the creation process. Our artistic ideas were formed by a collaboration of ideas tossed around within our group. Our final project arrived through many hours of intense trial and error procedures. Because we did not take advantage of our development stage to actually do any research on possibilities for this project, we had to conform to the “learn as we go” montra, trying different batteries as power sources, different types of lights, pressure plate configurations, different equipment such as the Connect with the infrared camera, that we tried to purchase but ultimately failed acquiring because of its status as being outdated technologies. We ultimately had three people, each with different strengths in our respective areas of operation, so we divided our strengths in order to create the different parts of the project and brought them all together in the end to create an experience for people to enjoy.</p><br><br>
+<img style="max-width: 100%;" src="../img/figure2.jpg" alt="Figure2">
+<h1>Technical Details and Work</h1>
+<p>The hardest part of the low volt lighting system was that the lights were very small and fragile. Every splice of the light thread had to have a connector added to it, and they were not easy or cheap to deal with. The wiring for the pressure plates was borrowed knowledge from insurgents that used the same technology on U.S. forces, so there was more than enough experience and interaction with that tech, so all we needed to do is tweak the tech. enough that it could be used in a modified apparatus that would not harm any students. Lots of trial and error went into this project, at first we used 6 volt batteries but the juice wasn't strong enough, so we had to up the ante with 12 volt batteries. The connectors were fragile and needed support, so we added a sheet of plexi glass to strengthen the pressure plates to alleviate connectors from being damaged or disconnected. Getting the spacing needed to properly separate the circuit posed a problem as well so we used a foam pad to add the required distance. Another problem we had was with the Kinect. It took us a while to figure out the triggering system for each video to play when someone was in a certain area. After night to testing and Googling we were able to make the system work by using Isadora. By show time we had it running one-way.</p><br><br>
+<h1>Discussion</h1>
+<p>I wasn't present for the unveiling of this project and so I can’t weigh in on how the class reacted to our installation, or if it came across as the dynamic duo of the technological world vs the naturalistic world, but I did see a couple of videos showing people’s reactions, and for the most part I can say that it was a success because the space engaged the user and they had fun experimenting with the piece. Although each of us in our group sat and admitted that we had in fact bitten off more than we can chew, and were all kind of worried that our project would be an utter failure, I believe that the overall goal of making a space that was interactive while using a computer, was a success. In the process of completing the assignment we were able to effectively alter one’s perception of space, or at least we entertained them long enough to forget the world for a minute and just enjoy a brief moment in life where there was nothing but the here and now.</p><br><br>
+<h1>Future Work and conclusions</h1>
+<p>If this work was to continue, I believe that all persons involved should be preset on the day of the show, so that all the hiccups can be taken out or solutions may be found when there is a problem or questions arise. But from a technical aspect, having more research done on technologies available along with the technical abilities to achieve the overall goal, and the prices on technical equipment, during or before the planning process begins and before an idea becomes a living thing, might help to ease any frustrations that might arise during the execution process of making said project. However, that might be misconstrued as allowing the technology to push or drive the art, instead of it being the other way around.</p><br><br>
+<h1>References</h1>
+<p>[1]  teamLab, “Wander through the Crystal Universe,”  teamLab, July 16, 2016</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+</div>
+
+	<script src="../scripts/mainscript.js"></script>
 </body>
 </html>
