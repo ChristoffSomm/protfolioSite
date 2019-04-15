@@ -1,48 +1,56 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Resume</title>
-<link href="../stylesheet.css" rel="stylesheet" type="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Résumé</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
 	<style>
-		Body {
-		background-color: #323233;
-		}
+.parallax {
+background-image: url("../img/resume/bg.jpg");
+min-height: 700px; 
+margin: 0px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 	</style>
 </head>
 <body>
-	<div class="parallax">	
-<div class="nav">
-      <ul>
-        <li class="home"><a href="../index.html">Home</a></li>
-        <li class="Portfolio"><a>Portfolio</a>
-          <ul>
-            <li><a href="eastmans'.html">Eastmans</a></li>
-            <li><a href="sportBoradcast.html">Graphics</a></li>
-            <li><a href="interactiveArt.html">Interactive Art</a></li>
-          </ul>
-        </li>
-		<li class="About"><a>About</a>
-          <ul>
-            <li><a href="aboutMe.html">About Me</a></li>
-            <li><a href="skills.html">Skills</a></li>
-          </ul>
-        </li>
-        <li class="about"><a class="Résumé" href="resume.html">Résumé</a></li>
-        <li class="contact"><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-</div>
-	<br><br><br><br><br>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #0d0d0d !important"> <a class="navbar-brand" href="../index.html">Christoffer Sommerfeld</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a> </li>
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="videoEditing.html">Video Editing</a> <a class="dropdown-item" href="graphics.html">Graphics</a><a class="dropdown-item" href="photo.html">Photos</a> </div>
+      </li>
 	
-
-<div id="splash">
+		 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="aboutMe.html">About Me</a> <a class="dropdown-item" href="skills.html">Skills</a></div>
+      </li>
+		
+	  <li class="nav-item active"> <a class="nav-link" href="resume.html">Résumé</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+    </ul>
+  </div>
+</nav>
+<div class="parallax">
+<div class="container">
+<div id="splash" style="padding-top: 60px; padding-bottom: 60px">
 	<div class="centerEmbed">
-	<p><embed height="1200px" width="1000px" src="../img/templetResume.pdf"></p>
+	<p><embed height="1200px" width="1000px" src="../img/resume/Christoffer-Sommerfeld.pdf"></p>
 	</div>
-</div>	
-
+</div>
+</div>
+</div>
 	
-	
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.0.0.js"></script>
+<script src="../js/mainscript.js"></script>	
 </body>
 </html>

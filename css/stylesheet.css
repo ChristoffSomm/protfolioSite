@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.insideLeft {
+  float: left;
+  width: 800px;
+  height: 150px;
+  
+  background: linear-gradient(to right,  rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
+}
+ 
+.insideRight {
+  float: right;
+  width: 800px;
+  height: 150px;
+  
+  background: linear-gradient(to right,  rgba(0,0,0,0) 30%, rgba(0,0,0,1) 45%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 65%, rgba(0,0,0,1) 100%);
+}
+
+.insideRight1 {
+  float: right;
+  width: 800px;
+  height: 150px;
+  
+  background: linear-gradient(to right,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 45%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 65%, rgba(0,0,0,1) 100%);
+}
+
+
+.box_holder, .box_holder1, .box_holder2, .box_holder_R1V1, .box_holder_R1V2, .box_holder_R1V3, .box_holder_R2V1, .box_holder_R2V2, .box_holder_R2V3, .box_holder_R3V1, .box_holder_R3V2, .box_holder_R3V3 {
+  position: relative;
+}
+.box_holder .front, .box_holder .back, .box_holder1 .front1, .box_holder1 .back1, .box_holder2 .front2, .box_holder2 .back2, .box_holder_R1V1 .front_R1V1, .box_holder_R1V1 .back_R1V1, .box_holder_R1V2 .front_R1V2, .box_holder_R1V2 .back_R1V2, .box_holder_R1V3 .front_R1V3, .box_holder_R1V3 .back_R1V3,  .box_holder_R2V1 .front_R2V1, .box_holder_R2V1 .back_R2V1, .box_holder_R2V2 .front_R2V2, .box_holder_R2V2 .back_R2V2, .box_holder_R2V3 .front_R2V3, .box_holder_R2V3 .back_R2V3,  .box_holder_R3V1 .front_R3V1, .box_holder_R3V1 .back_R3V1, .box_holder_R3V2 .front_R3V2, .box_holder_R3V2 .back_R3V2, .box_holder_R3V3 .front_R3V3, .box_holder_R3V3 .back_R3V3 {
+  position: absolute;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.box_holder .back, .box_holder1 .back1, .box_holder2 .back2, .box_holder_R1V1 .back_R1V1, .box_holder_R1V2 .back_R1V2, .box_holder_R1V3 .back_R1V3, .box_holder_R2V1 .back_R2V1, .box_holder_R2V2 .back_R2V2, .box_holder_R2V3 .back_R2V3, .box_holder_R3V1 .back_R3V1, .box_holder_R3V2 .back_R3V2, .box_holder_R3V3 .back_R3V3 {
+  transform: rotateY(180deg);
+}
+.box_holder.show_info .back, .box_holder1.show_info1 .back1, .box_holder2.show_info2 .back2, .box_holder_R1V1.show_info_R1V1 .back_R1V1, .box_holder_R1V2.show_info_R1V2 .back_R1V2, .box_holder_R1V3.show_info_R1V3 .back_R1V3, .box_holder_R2V1.show_info_R2V1 .back_R2V1, .box_holder_R2V2.show_info_R2V2 .back_R2V2, .box_holder_R2V3.show_info_R2V3 .back_R2V3, .box_holder_R3V1.show_info_R3V1 .back_R3V1, .box_holder_R3V2.show_info_R3V2 .back_R3V2, .box_holder_R3V3.show_info_R3V3 .back_R3V3 {
+  transform: rotateY(0deg);
+}
+.box_holder.show_info .front, .box_holder1.show_info1 .front1, .box_holder2.show_info2 .front2, .box_holder_R1V1.show_info_R1V1 .front_R1V1, .box_holder_R1V2.show_info_R1V2 .front_R1V2, .box_holder_R1V3.show_info_R1V3 .front_R1V3, .box_holder_R2V1.show_info_R2V1 .front_R2V1, .box_holder_R2V2.show_info_R2V2 .front_R2V2, .box_holder_R2V3.show_info_R2V3 .front_R2V3, .box_holder_R3V1.show_info_R3V1 .front_R3V1, .box_holder_R3V2.show_info_R3V2 .front_R3V2, .box_holder_R3V3.show_info_R3V3 .front_R3V3 {
+  transform: rotateY(-180deg);
+}
+
+.centerEmbed{
+	text-align: center;
+}
+
+
